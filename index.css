@@ -6,7 +6,7 @@
 5- Otros --> reglas CSS y más */
 
 :root {
-    --bitcoin-orage:#F7931A;
+    --bitcoin-orange:#F7931A;
 	--soft-orange:#FFE9D5;
     --secondary-blue:#FFE9D5; 
 	--soft-blue:#E7F5FF;
@@ -28,9 +28,53 @@ html{
     font-family: 'DM Sans', sans-serif;
 }
 
+/* header */
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+    background: linear-gradient(232deg, #201e1c, #f7931a);
+}
 
+header img{
+    width: 150px;
+    height: 24px;
+    margin-top: 60px;
+    align-self: center;
+}
 
+.header--title-container{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 40px;
+    text-align: center;
+    align-self: center;
+
+}
+
+.header--title-container h1{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+
+    padding-bottom: 20px;
+}
+
+.header--title-container p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--soft-orange);
+}
 
 
 
