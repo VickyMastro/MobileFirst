@@ -120,7 +120,7 @@ main{
     text-align: center;
 }
 
-/* .first-section .image-container{
+.first-section .image-container{
 
     width: 200px;
     height: 200px;
@@ -132,7 +132,7 @@ main{
     background-position: center;
     background-repeat: no-repeat;
 }
- */
+
 .first-section .title-container{
     width: 90%;
     min-width: 288px;
