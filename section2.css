@@ -4,7 +4,7 @@
     background-color: var(--warm-black);
 }
 
-.second-section .algo{
+.second-section .papa{
     background-image: url("./assets/icons/batata.svg");
     width: 40px;
     height: 24px;
@@ -13,8 +13,6 @@
     display: inline-block;
     top: -10px;
     left: 45%;
-    right: 0;
-    bottom: 0;
     margin: 0 auto;
     
 }
@@ -58,6 +56,7 @@
     background-color: var(--warm-blackplus1);
     margin-bottom: 15px;
     border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
 /* ------------------------------------------ */
 .cards-container .card .logo{
