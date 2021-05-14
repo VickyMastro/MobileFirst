@@ -102,7 +102,7 @@ header img{
     width: 13px;
     height: 8px;
     margin-left: 10px;
-    background-image: url("./assets/icons/down-arrow.svg");
+    background-image: url("../assets/icons/down-arrow.svg");
 }
 
 /* ---------------------------------IMG Y TEXTO--------------------------------- */
@@ -127,7 +127,7 @@ main{
     margin: 0 auto;
     margin-bottom: 50px;
 
-    background-image: url("./assets/img/bitcoin.svg");
+    background-image: url("../assets/img/bitcoin.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

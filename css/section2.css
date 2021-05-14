@@ -67,19 +67,19 @@
 }
 
 .cards-container .card .clock{
-    background-image: url("./assets/icons/clock.svg");
+    background-image: url("../assets/icons/clock.svg");
 }
 
 .cards-container .card .view{
-    background-image: url("./assets/icons/eye.svg");
+    background-image: url("../assets/icons/eye.svg");
 }
 
 .cards-container .card .dolar{
-    background-image: url("./assets/icons/dollar-sign.svg");
+    background-image: url("../assets/icons/dollar-sign.svg");
 }
 
 .cards-container .card .check{
-    background-image: url("./assets/icons/check-circle.svg");
+    background-image: url("../assets/icons/check-circle.svg");
 }
 
 /* --------------------------------------------------- */
