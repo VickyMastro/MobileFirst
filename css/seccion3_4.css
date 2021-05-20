@@ -1,7 +1,7 @@
 .third-section{
     width: 100%;
     min-width: 320px;
-    height: 50vh;
+    height: 60vh;
     background-image: url("../assets/img/bitcoinbaby2x.jpg");
     background-position: center;
     background-size: cover;
@@ -15,4 +15,126 @@
     line-height: 2.6rem;
     color: var(--just-white);
     text-align: center;
+}
+
+/* ----------------------------------------------- */
+.quarter-section{
+    width: 100%;
+    min-width: 320px;
+    text-align: center;
+    background-color: #E5E5E5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.quarter-section .title-quarter-section{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    
+}
+
+.quarter-section .title-quarter-section h2{
+    color: var(--warm-black);
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    padding-bottom: 15px;
+}
+
+.quarter-section .title-quarter-section p{
+    color: #757575;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    padding-bottom: 25px;
+}
+
+/* ------------------------------------------------ */
+.quarter-section .first-plans{
+    width: 70%;
+    margin: 0 auto;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px auto 0;
+    padding: 0 15px;
+    background-color: var(--just-white);
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+
+}
+
+.first-plans{
+    position: relative;
+}
+
+.first-plans #alguito{
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    top: -15px;
+    left: calc(50% - 60px);
+
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+
+    padding: 10px 5px;
+    background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+    color: var(--just-white);
+}
+
+.first-card h3{
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+
+.first-card .price{
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+   
+}
+
+.first-card .price span{
+    font-size: 1.2rem;
+    font-weight: 300;
+    vertical-align: 25px;
+
+}
+
+.first-card .paragraph{
+    padding-bottom: 15px;
+    color: #757575;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5rem;    
+}
+
+.first-card .botoncito{
+    width: 150px;
+    height: 48px;
+    margin-top: 15px;
+    background-color: var(--off-white);
+    border: 2px solid var(--bitcoin-orange);
+    border-radius: 4px;
+
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+
+.first-card .botoncito span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("../assets/icons/orange-right-arrow.svg");
+    vertical-align: text-bottom;
 }
