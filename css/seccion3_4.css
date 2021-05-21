@@ -53,13 +53,24 @@
 }
 
 /* ------------------------------------------------ */
+.plans-container{
+    display: flex;
+    justify-content: space-around;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior: contain;
+    scroll-snap-type: x proximity; 
+    
+}
+
+
 .quarter-section .first-plans{
     width: 70%;
     margin: 0 auto;
     min-width: 230px;
     max-width: 300px;
     height: 250px;
-    margin: 50px auto 0;
+    margin: 50px 10px 0;
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 8px;
@@ -67,8 +78,10 @@
 
 }
 
-.first-plans{
+.plans-container .first-plans{
     position: relative;
+    scroll-snap-align: center;
+    
 }
 
 .first-plans #alguito{
