@@ -29,6 +29,10 @@ footer .left a{
     color: var(--just-white);
 }
 
+footer .right img{
+    width: 64px;
+    height: 50px;
+}
 
 
 
