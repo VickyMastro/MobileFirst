@@ -6,6 +6,9 @@
 
     margin: 0 auto;
     font-family: "Inter", sans-serif;
+
+    position: relative;
+    scroll-snap-align: center;
 }
 .section-tables-container .second-table .title{
     margin-bottom: 15px;

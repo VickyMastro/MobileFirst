@@ -1,3 +1,12 @@
+.section-tables-container{
+    margin: 0 0 0 10px;
+    display: flex;
+    height: 370px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
 .first-table{
     width: 70%;
     min-width: 235px;
@@ -6,6 +15,9 @@
 
     margin: 0 auto;
     font-family: "Inter", sans-serif;
+
+    position: relative;
+    scroll-snap-align: center;
 }
 .section-tables-container .first-table .title{
     margin-bottom: 15px;
