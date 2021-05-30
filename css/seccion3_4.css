@@ -55,11 +55,10 @@
 /* ------------------------------------------------ */
 .plans-container{
     display: flex;
-    justify-content: space-around;
     height: 316px;
     overflow-x: scroll;
-    overscroll-behavior: contain;
-    scroll-snap-type: x proximity; 
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
     
 }
 
